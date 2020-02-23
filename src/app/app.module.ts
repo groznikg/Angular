@@ -8,12 +8,14 @@ import { ListComponent } from './list/list.component';
 import {FormsModule} from '@angular/forms';
 
 import { HttpClientModule} from '@angular/common/http';
+import { LocationComponent } from './location/location.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ListComponent
+    ListComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,
